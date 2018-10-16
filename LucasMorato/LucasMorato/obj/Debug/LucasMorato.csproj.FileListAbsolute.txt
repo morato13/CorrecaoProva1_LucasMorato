@@ -1,0 +1,7 @@
+c:\users\318112739\source\repos\LucasMorato\LucasMorato\obj\Debug\LucasMorato.csprojAssemblyReference.cache
+c:\users\318112739\source\repos\LucasMorato\LucasMorato\obj\Debug\LucasMorato.csproj.CoreCompileInputs.cache
+c:\users\318112739\source\repos\LucasMorato\LucasMorato\bin\Debug\LucasMorato.exe.config
+c:\users\318112739\source\repos\LucasMorato\LucasMorato\bin\Debug\LucasMorato.exe
+c:\users\318112739\source\repos\LucasMorato\LucasMorato\bin\Debug\LucasMorato.pdb
+c:\users\318112739\source\repos\LucasMorato\LucasMorato\obj\Debug\LucasMorato.exe
+c:\users\318112739\source\repos\LucasMorato\LucasMorato\obj\Debug\LucasMorato.pdb
