@@ -2,7 +2,7 @@
 
 namespace LucasMorato
 {
-    class IMC
+    public class IMC
     {
         private double peso;
         private double altura;
@@ -19,14 +19,32 @@ namespace LucasMorato
             this.altura = altura;
         }
 
-        public double calcular(double peso, double altura)
+        public double Calcular(double peso, double altura)
         {
-            return peso / (altura * altura);
+            double retorno = (peso / (altura * altura));
+            return retorno;
         }
 
-        public double Classifcar(double imc)
+        public string Classifcar(double imc)
         {
-            return 0.0;
+            string classificacao = "Não validado!"; 
+
+            if(imc < 16)
+                classificacao = "Magreza Grave!";
+            else if(imc > 16 & imc <= 18.4d)
+                classificacao = "Magreza Moderada!";
+            else if(imc >= 18.5 && imc <= 24)
+                classificacao = "Magreza Leve!";
+            else if(imc >= 25 && imc <= 30)
+                classificacao = "Saudável!";
+            else if(imc >= 31 && imc <= 34)
+                classificacao = "Obesidade GRAU I";
+            else if (imc >= 35 && imc <= 39)
+                classificacao = "Obesidade GRAU II";
+            else if (imc > 40)
+                classificacao = "Obesidade GRAU III";
+
+            return classificacao;
         }
     }
 }

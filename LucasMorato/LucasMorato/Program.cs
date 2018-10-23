@@ -8,46 +8,28 @@ namespace LucasMorato
 {
     class Program
     {
-        static int Maior(int a, int b)
-        {
-            if (a > b)
-            {
-                return a;
-            }
-            else
-                return b;
-        }
 
-        static int Maior2(int a, int b)
+        static string  ComunicacaoComClasse()
         {
-            return (a > b) ? a : b;
-        }
+            IMC imc = new IMC();
+            Console.WriteLine("Informe seu peso: ");
+            double peso = double.Parse(Console.ReadLine());
 
-        static bool Resto(int c)
-        {
-            if (c % 2 == 0)
-            {
-                return true;
-            }
-            else
-                return false;
-        }
+            Console.WriteLine("Informe sua altura: ");
+            double altura = double.Parse(Console.ReadLine()); 
+
+            string classificacao = imc.Classifcar(imc.Calcular(peso, altura));
+
+            return classificacao;         
+        }      
+
         static void Main(string[] args)
         {
-            //Questão 1
-            Console.WriteLine(Maior(1, 2));
-            Console.WriteLine(Maior2(5, 2));
+            Console.WriteLine("Calculo de IMC: ");
+            Console.WriteLine("Sua classificação é {0}", ComunicacaoComClasse());
 
-            //Questão 3
-            Console.WriteLine(Resto(2));
-        
-
-           
             Console.ReadKey();
-            Console.Clear();
         }
-
-
     }
 }
 

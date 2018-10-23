@@ -5,3 +5,9 @@ c:\users\318112739\source\repos\LucasMorato\LucasMorato\bin\Debug\LucasMorato.ex
 c:\users\318112739\source\repos\LucasMorato\LucasMorato\bin\Debug\LucasMorato.pdb
 c:\users\318112739\source\repos\LucasMorato\LucasMorato\obj\Debug\LucasMorato.exe
 c:\users\318112739\source\repos\LucasMorato\LucasMorato\obj\Debug\LucasMorato.pdb
+C:\Users\usuario\Source\Repos\CorrecaoProva1_LucasMorato3\LucasMorato\LucasMorato\bin\Debug\LucasMorato.exe.config
+C:\Users\usuario\Source\Repos\CorrecaoProva1_LucasMorato3\LucasMorato\LucasMorato\bin\Debug\LucasMorato.exe
+C:\Users\usuario\Source\Repos\CorrecaoProva1_LucasMorato3\LucasMorato\LucasMorato\bin\Debug\LucasMorato.pdb
+C:\Users\usuario\Source\Repos\CorrecaoProva1_LucasMorato3\LucasMorato\LucasMorato\obj\Debug\LucasMorato.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Source\Repos\CorrecaoProva1_LucasMorato3\LucasMorato\LucasMorato\obj\Debug\LucasMorato.exe
+C:\Users\usuario\Source\Repos\CorrecaoProva1_LucasMorato3\LucasMorato\LucasMorato\obj\Debug\LucasMorato.pdb
